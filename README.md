@@ -42,14 +42,14 @@ d)Data Transformation & Cleaning: Performing necessary data cleaning and shaping
 ##Key Features & Analysis Performed
 The Power BI dashboard provides a multi-faceted and interactive view of campaign performance, structured across three main pages:
 
-1)Overall Campaign Analysis
+*Overall Campaign Analysis
 High-Level KPIs: Displays aggregated Net Sales, Total Ad Spend, Total Sales, and Conversion Rate% across all campaigns.
 
 Channel-Specific Performance: Offers a side-by-side comparison of Facebook, Instagram, and Pinterest, detailing Net Sales, Total Sales, Total Ad Spend, Conversion Rate%, Total Comments, Total Shares, and Total Likes for each. This allows for immediate identification of top-performing and underperforming channels.
 
 ![Screenshot 2025-07-09 170204](https://github.com/user-attachments/assets/2b1d9092-617b-4aa1-89c2-0f8dc0fc29f4)
 
-2)Monthly Campaign Analysis
+*Monthly Campaign Analysis
 Time-Series Tracking: Presents Net Sales, Total Sales, Total Ad Spend, and ROAS on a monthly basis.
 
 Month-over-Month (MoM) Changes: Crucially, includes MoM percentage changes for all key metrics, enabling quick assessment of trends and performance shifts over time.
@@ -59,7 +59,7 @@ Channel-Wise Monthly Breakdown: Provides a granular view of monthly performance 
 ![Screenshot 2025-07-07 115202](https://github.com/user-attachments/assets/7c2d3a25-db44-4351-baea-1e3a8091f938)
 
 
-3)Detailed Campaign Analysis
+*Detailed Campaign Analysis
 Granular Data Table: Features a comprehensive matrix table allowing drill-down into Channel and City/Location.
 
 Segmented Metrics: Displays Total Sales, Total Ad Spend, Net Sales, ROAS, Conversion Rate%, Total Comments, Total Conversions, Total Likes, and Total Shares for each specific segment, enabling deep-dive analysis into particular ad types, campaigns, and geographical regions.
@@ -97,6 +97,16 @@ Dynamic Seasonal Strategy: Develop agile campaign strategies that adapt to month
 Localized Campaign Execution: Utilize the granular city-level insights to tailor campaigns and ad spend more effectively to specific geographical markets (Bengaluru, Delhi, Mumbai), capitalizing on regional strengths.
 
 Continuous A/B Testing: Continue A/B testing various ad types and creatives to refine strategies and identify the most impactful campaign elements for different channels and target audiences.
+
+.
+├── Marketing Campaign - data.csv        # Raw/Cleaned dataset used for analysis
+├── Marketing Campaign - dictionary.csv  # Data dictionary for understanding metrics
+├── Silvercraft AdCampaign.pbix          # Power BI project file
+├── Snapshots - Silvercraft Dashboard/   # Folder containing dashboard screenshots
+│   ├── Screenshot 2025-07-09 170204.png # Overall Campaign Analysis screenshot
+│   ├── Screenshot 2025-07-07 115202.png # Monthly Campaign Analysis screenshot
+│   └── Screenshot 2025-07-09 170313.png # Detailed Campaign Analysis screenshot
+└── README.md                            # Project documentation (this file)
 
 Challenges & Solutions
 Throughout this project, I encountered and overcame several challenges, strengthening my analytical and technical skills:
